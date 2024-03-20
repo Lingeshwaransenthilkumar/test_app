@@ -128,6 +128,7 @@ function showScore(){
     questionElement.innerHTML=`You scored ${score} out of ${questions.length}!`;
     nextButton.innerHTML="Play Again!";
     nextButton.style.display="block";
+    currentQuestionIndex = -1;
     
 }
 
